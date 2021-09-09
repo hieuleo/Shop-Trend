@@ -1,0 +1,21 @@
+@keyframes showup {
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes growth{ /*growth: sự phát triển*/
+    from{
+        transform: scale(var(--growth-from));  /*scale: tỉ lệ ở đây từ 0-->1*/
+        opacity: 0;
+    }
+
+    to{
+        transform: scale(var(--growth-to));
+        opacity: 1;
+    }
+}
