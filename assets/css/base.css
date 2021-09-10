@@ -1,3 +1,4 @@
+/* qr-code */
 @keyframes showup {
     from{
         opacity: 0;
@@ -8,6 +9,8 @@
     }
 }
 
+
+/* modal */
 @keyframes growth{ /*growth: sự phát triển*/
     from{
         transform: scale(var(--growth-from));  /*scale: tỉ lệ ở đây từ 0-->1*/
@@ -19,3 +22,17 @@
         opacity: 1;
     }
 }
+
+
+/* notify + cart */
+@keyframes spreadout{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
