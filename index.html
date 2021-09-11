@@ -168,7 +168,39 @@
                     </div>
 
                     <div class="search__cart">
-                        <i class="fas fa-shopping-cart search__cart--logo"></i>
+                        <div class="cart ">
+
+                            <!-- cart--hollow  -->
+                            <i class="fas fa-shopping-cart search__cart--logo"></i>
+                            <span class="cart__notice">3</span>
+                            <div class="cart__list cart__contain">
+                                <img class="cart__list--hollow-img" src="./assets/img/cart/cart-hollow.webp" alt="">
+                                <p class="cart__list--hollow-notice">Chưa Có Sản Phẩm</p>
+                            
+                            <!-- cart--contain  -->
+                                <p class="cart__header"> Sản Phẩm Mới Thêm</p>
+                                <ul class="cart__list-new">
+                                    <li class="cart__item">
+                                        <img class="cart__item__img" src="./assets/img/cart/list--cart/nikon.jpg" alt="">
+                                        <a class="cart__item__content">Nikon D7200 24.2MP với Lens 18 - 105mm VR (Đen)</a>
+                                        <span class="cart__price">₫25.999.000</span>
+                                    </li>
+                                    <li class="cart__item">
+                                        <img class="cart__item__img" src="./assets/img/cart/list--cart/rocket1h.jpg" alt="">
+                                        <a class="cart__item__content">(Chính hãng-Che tên) ROCKET 1h Sao Thái Dương - Bền bỉ suốt 1h</a>
+                                        <span class="cart__price">₫689.500</span>
+                                    </li>
+                                    <li class="cart__item">
+                                        <img class="cart__item__img" src="./assets/img/cart/list--cart/samsungTV.jpg" alt="">
+                                        <a class="cart__item__content">[Mã ELSAMHOT giảm 5% đơn 3 TRIỆU] Màn hình thông minh Samsung LS27AM500NEXXV 27 inch FHD - Hàng chính hãng</a>
+                                        <span class="cart__price">₫6.149.000</span>
+                                    </li>
+                                </ul>
+                                <div class="cart__bottom">
+                                    <buton class=""><a href="" class="cart__bottom-link modal-hover">Xem Giỏ Hàng</a></buton>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
@@ -222,8 +254,8 @@
                 </div>
                 <div class="modal__body">
                     <form action="">
-                        <input type="tel" class="modal__input" required pattern="[0-9]{10}" value="" title="Vui lòng nhập số đt của bạn!!" placeholder="Số Điện Thoại" autofocus>
-                        <input type="text" class="modal__input" required title="Tạo tên đăng nhập" placeholder="Tên Đăng Nhập">
+                        <input type="tel" class="modal__input" required pattern="[0-9]{10}" value="" title="Vui lòng nhập số đt của bạn!![0-9]" placeholder="Số Điện Thoại" autofocus>
+                        <input type="text" class="modal__input" required title="Tạo tên đăng nhập [aA-zZ,0-9]" pattern="[aA-zZ,0-9]" placeholder="Tên Đăng Nhập">
                         <input type="email" class="modal__input" required title="Gmail của bạn" placeholder="Email">
                         <input type="password" class="modal__input" title="Đặt mật khẩu cho tài khoản của bạn" required placeholder="Đặt Mật Khẩu">
                         <input type="password" class="modal__input" title="nhập lại mật khẩu tài khoản của bạn" required placeholder="Nhập lại mật khẩu">
