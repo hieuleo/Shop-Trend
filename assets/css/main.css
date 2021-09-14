@@ -1142,6 +1142,7 @@ html{
     width: 100%;
     border-radius: 2px;
     display: none;
+    z-index: 1;
 }
 
 .arrange__select-list::before{
@@ -1229,6 +1230,8 @@ html{
     margin-top: 10px;
     border-radius: 2px;
     overflow: hidden;
+    box-shadow: 0 0 5px #ccc;
+    cursor: pointer;
 }
 
 .contain-product__img {
@@ -1299,7 +1302,16 @@ html{
 .contain-rated__love{
     color: #ccc;
     cursor: pointer;
+}
 
+
+/* when not js:)) */
+.love .contain-rated__love{
+    color: #f63;
+}
+
+.gold{
+    color: #fecc20;
 }
 
 .contain-rated__star{
@@ -1326,6 +1338,7 @@ html{
     font-size: 1.2rem;
     margin-top: 5px;
     color: var(--text-color);
+    opacity: 0.8;
     text-align: right   ;
 }
 

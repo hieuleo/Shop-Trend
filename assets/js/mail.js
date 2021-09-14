@@ -91,4 +91,14 @@
     main.addEventListener('click',closeHistory)
 
 
+//contain-product
+    // const loves = document.querySelectorAll('.contain-rated__love')
+    // const divlove = document.querySelectorAll('.contain-rated')
 
+    // function loved(){
+    //     divlove.classList.add('love')
+    // }
+
+    // for(const live of loves){
+    //     live.addEventListener('click',loved)
+    // }
