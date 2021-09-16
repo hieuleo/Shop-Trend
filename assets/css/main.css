@@ -23,43 +23,6 @@ html{
     box-sizing: border-box;
 }
 
-/* responsive */
-
-.grid{
-    width: var(--display-scope);
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width{
-    width: 100%;
-}
-
-.grid-row{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -6px;
-    margin-right: -6px;
-}
-
-.grid__column-2{
-    padding-left: 6px;
-    padding-right: 6px;
-    width: 16.66667%;
-}
-
-.grid__column-10{
-    padding-left: 6px;
-    padding-right: 6px;
-    width: 83.33333%;
-}
-
-.grid__column-2-10{
-    padding-left: 6px;
-    padding-right: 6px;
-    width: 20%;
-}
-
 /*common*/
 .mj-right-4{
     margin-right: 10px;
@@ -1384,14 +1347,6 @@ html{
     border-width: 0 19px 4px;
 }
 
-.contain-sale-off__value {
-    
-}
-
-.contain-sale-off__label {
-    
-}
-
 .contain-sale-off-2 {
     position:absolute;
     bottom: 0;
@@ -1402,7 +1357,6 @@ html{
     text-align: center;
     padding-right: 8px;
 }
-
 
 .contain-sale-off-2__value {
     line-height: 0;
@@ -1450,3 +1404,98 @@ html{
     filter: brightness(60%);
 }
 
+
+/* fooder */
+.footer{
+    border-top: 4px solid #ee4d2d;
+}
+
+.footer-info{
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.footer-info__header{
+    color: rgba(0,0,0,.54);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 40px 0 20px;
+}
+
+.footer-info__list{
+    margin-bottom: 25px;
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+
+.footer-info__item{
+    margin-bottom: 12px;
+    
+}
+
+.footer-info__link{
+    text-decoration: none;
+    color: rgba(0,0,0,.54);
+    text-transform: capitalize;
+    display: block;
+}
+
+.footer-info__link:hover{
+    color: #ee4d2d;
+}
+
+.footer-info__img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-bottom: 25px;
+    padding: 0;
+    margin-top:0;
+}
+
+.footer-info__img--second{
+    margin: 0 0  20px 0;
+}
+.footer-info__pay{
+    height: 29px;
+    width: 55px;
+    margin: 0 8px 8px 0;
+}
+
+.footer-info-icon{
+    color:rgba(0,0,0,.54);
+    margin: 0 10px 4px 0;
+}
+
+
+/* fooder--qr */
+.footer-info__down{
+    display: flex;
+    height: 86px;
+}
+
+.footer-info__down-link{
+    height: 100%;
+    display: block;
+}
+
+.footer-info__down-qr{
+    width: 86px;
+    margin-right: 15px;
+}
+
+.footer-info__down-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.footer-info__down-appimg{
+    width: 80px;
+}
