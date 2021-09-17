@@ -1843,3 +1843,8 @@ html{
     opacity: 0;
     transform: translate(-152px, -163px);
 }
+
+/* mobi  */
+.mobi{
+    display: none;
+}
