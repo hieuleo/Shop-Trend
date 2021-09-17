@@ -1632,7 +1632,7 @@ html{
     height: 42px;
     background-color: var(--white-color);
     transform:translate(0);
-    transition: opacity ease 0.1s, transform linear 0.25s;
+    transition: opacity ease 0.18s, transform linear 0.18s;
 }
 
 #chat-check{
