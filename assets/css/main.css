@@ -204,11 +204,17 @@ html{
     box-shadow: 0 0 8px #ccc;
     border-radius: 3px;
     background-color: var(--white-color);
-    display: none;
-    transform-origin: calc(100% - 30px) top;
-    animation: spreadout ease-in-out 0.25s;
-    will-change: opacity, transform;
+    display: block;
+    transform-origin: calc(100% - 25px) top;
     z-index: 2;
+    transform: scale(0);
+    transition: transform ease 0.18s, opacity linear 0.15s, transform-origin linear 0.15s;
+    opacity: 0;
+}
+
+.navbar__item:hover .notify{
+    transform: scale(1);
+    opacity: 1;
 }
 
 /* notifycation__header */
@@ -301,9 +307,7 @@ html{
 
 /* show-notifycation */
 
-.navbar__item:hover .notify{
-    display: block;
-}
+
 
 .notify::before{
     position: absolute;
@@ -1612,7 +1616,7 @@ html{
 /* chat  */
 .chat{
     position:fixed;
-    bottom: 0;
+    bottom: 10px;
     right: 10px;
     display: block;
 }
@@ -1644,7 +1648,7 @@ html{
 /* chat modal  */
 .chat-modal{
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     right: 8px;
     display: inline-block;
     background-color: var(--white-color);
@@ -1654,6 +1658,8 @@ html{
     transform-origin: calc(100% - 0px) calc(100% - 0px);
     transition: transform linear 0.25s, opacity linear 0.25s;
     opacity: 0;
+    border-radius: 4px;
+    overflow: hidden;
 }
 
 .chat-modal__header{
@@ -1662,6 +1668,8 @@ html{
     justify-content: space-between;
     align-items: center;
     border: 1px solid rgba(204, 204, 204, 0.5);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
 }
 
 .chat-modal__header div{
