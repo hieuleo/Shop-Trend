@@ -348,6 +348,10 @@
         display: none;
     }
 
+    .contain-sale-off{
+        font-size: 0.9rem;
+    }
+
     .contain-sale-off-2{
         width: 32%;
         height: 15%;
@@ -400,6 +404,9 @@
     .pagination__link{
         margin: 0 10px;
     }
+    .contain-rated__star{
+        margin-right: 36px;
+    }
 
 
 }
@@ -413,8 +420,8 @@
     }
 
     .contain-sale-off-2 {
-        width: 21%;
-        height: 8%;
+        width: 29%;
+        height: 13%;
     }
 
     .search-mobi {
@@ -461,7 +468,7 @@
     }
 
     .logo-shop {
-        width: 138px;
+        width: 120px;
         margin-bottom: 0;
     }
 
@@ -676,8 +683,16 @@
     }
 
     /* footer-ending */
+    .footer-info{
+        padding-bottom: 40px;
+    }
+
     .footer-policy{
         padding: 0;
+    }
+    
+    .footer-info__down-list{
+        justify-content: space-between;
     }
 
     .footer-ending__img-link{
@@ -706,5 +721,8 @@
     }
     .footer-policy__item {
         padding: 0 5px;
+    }
+    .footer-ending{
+        padding-bottom: 52px;
     }
 }
