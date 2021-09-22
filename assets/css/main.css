@@ -400,6 +400,7 @@ html{
     left: 0;
     background-color: rgba(0, 0, 0, 0.342);
     justify-content: center;
+    z-index: 100000;
 }
 
 .modal--login{
@@ -1678,6 +1679,7 @@ html{
     bottom: 10px;
     right: 10px;
     display: block;
+    z-index: 10;
 }
 
 .chat__button{
@@ -1906,14 +1908,11 @@ html{
 
 /* tablet & mobi  */
 
-.header-sort-bar{
-    display: none;
-}
-
-.search-mobi{
-    display: none;
-}
-
+.navi-mobi-tablet__icon,
+.navi-mobi-tablet__list,
+.navi-mobi-tablet,
+.header-sort-bar,
+.search-mobi,
 #mobi-search{
     display: none;
 }
