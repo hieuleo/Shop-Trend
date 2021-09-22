@@ -23,6 +23,24 @@
         --header-navbar: 0px;
     }
     
+    /* movi-category */
+    .mobi-category{
+        display: block;
+    }
+
+    .search__history-item >a,
+    .search__select-label,
+    .search--bottom,
+    .mobi-category__link,
+    .chat__button,
+    .cart,
+    .cart__link,
+    .navi-mobi-tablet__icon
+    {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+
     /* navication  */
     .navi-mobi-tablet{
         
@@ -307,7 +325,7 @@
     /* container  */
     .app-container {
         background-color: #f5f5f5;
-        padding: 20px 0;
+        padding: 10px 0;
         position: relative;
         top: calc(74px + 58px);
     }
