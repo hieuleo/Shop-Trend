@@ -5,8 +5,8 @@
     const containers = document.querySelectorAll('.js-modal-container')
     const modalLogin = document.querySelector('.js-modal--login')
     const modalSignup = document.querySelector('.js-modal--signup')
-    const login = document.querySelector('.js-login')
-    const signup = document.querySelector('.js-signup')
+    const logins = document.querySelectorAll('.js-login')
+    const signups = document.querySelectorAll('.js-signup')
     const backLogin = document.querySelector('.js-close-login')
     const backSignpu = document.querySelector('.js-close-signup')
 
@@ -50,8 +50,12 @@
         modalSignup.classList.add('open')
     }
     //EvenClick
-    login.addEventListener('click',Openlogin)
-    signup.addEventListener('click',Opensignin)
+    for(const login of logins){
+        login.addEventListener('click',Openlogin)
+    }
+    for(const signup of signups){
+        signup.addEventListener('click',Opensignin)
+    }
     backLogin.addEventListener('click',closeLogin)
     backSignpu.addEventListener('click',closeSignup)
     forwarkLogin.addEventListener('click',clickforwarkLogin)
