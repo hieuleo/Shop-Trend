@@ -560,6 +560,15 @@
         display: none;
     }
 
+    /* chat-mobi */
+    .chat-modal{
+        width: 96vw;
+    }
+    .chat-modal__container {
+        display: flex;
+        height: 312px;
+    }
+
 
     /* container product */
 
